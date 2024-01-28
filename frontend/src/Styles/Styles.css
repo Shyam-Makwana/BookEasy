@@ -1,0 +1,1188 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Alkatra");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700,600|Open+Sans:400|Poppins:500,800");
+
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.App input {
+  border-radius: 5px;
+  width: 100px;
+}
+
+/* Nithin's Pages */
+
+:root {
+  --biscay: #152c5b;
+  --black: #000000;
+  --green: #24ab70;
+  --tropical-blue: #c8d3f9;
+  --white: #ffffff;
+
+  --font-size-l: 28px;
+  --font-size-m: 24px;
+  --font-size-s: 20px;
+  --font-size-xl: 36px;
+  --font-size-xs: 18px;
+  --font-size-xxl: 64px;
+
+  --font-family-nunito: "Nunito", Helvetica;
+  --font-family-open_sans: "Open Sans", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+}
+.nunito-semi-bold-biscay-28px {
+  color: var(--biscay);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.nunito-normal-tropical-blue-24px {
+  color: var(--tropical-blue);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nunito-semi-bold-green-20px {
+  color: var(--green);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.nunito-normal-biscay-20px {
+  color: var(--biscay);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-medium-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.poppins-medium-biscay-64px {
+  color: var(--biscay);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.nunito-normal-biscay-24px {
+  color: var(--biscay);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-extra-bold-green-36px {
+  color: var(--green);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.opensans-normal-biscay-24px {
+  color: var(--biscay);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nunito-bold-biscay-24px {
+  color: var(--biscay);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.nunito-bold-biscay-28px {
+  color: var(--biscay);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.nunito-semi-bold-biscay-20px {
+  color: var(--biscay);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-medium-green-64px {
+  color: var(--green);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* Login */
+
+.welcome-back-traveler {
+  letter-spacing: 3.6px;
+  line-height: normal;
+}
+
+.left_spacing {
+  position: absolute;
+  left: 150px;
+  top: 108px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: left;
+  width: 100%;
+  max-width: 640px;
+  margin-top: 20px;
+}
+
+.username_input {
+  margin-top: 65px;
+  position: relative;
+
+  height: 81px;
+  min-height: 33px;
+  gap: 17px;
+  width: 640px;
+  min-width: 640px;
+
+  background-color: var(--white);
+  border-radius: 80px;
+  padding: 22px 32px;
+
+  letter-spacing: 2.4px;
+  line-height: normal;
+}
+
+.button_login {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.line {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+.email {
+  position: relative;
+  margin-top: 30px;
+}
+
+.password {
+  position: relative;
+  margin-top: 30px;
+}
+
+.forgot_password {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 230px;
+}
+
+.firebase_auth {
+  position: relative;
+  margin-top: 30px;
+  margin-left: -20px;
+}
+
+.explorer_pic {
+  position: absolute;
+  top: 60px;
+  left: 700px;
+}
+
+.top-right-icons {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.top-right-icons .icon {
+  margin-left: 20px;
+}
+/* Sign up */
+
+.admin_checkbox {
+}
+
+.admin_checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.admin_checkbox:checked {
+  background-color: #2196f3;
+}
+
+.admin_label {
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+.already_have {
+  height: 43px;
+  width: 480px;
+
+  position: relative;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+.already_have_text {
+  letter-spacing: 2.4px;
+  line-height: normal;
+  min-height: 39px;
+}
+
+.text_header_r {
+  position: relative;
+  margin-top: 15px;
+
+  /* top: 30px; */
+}
+
+.button_header {
+  position: relative;
+  margin-top: 64px;
+  margin-left: 200px;
+}
+
+.right_spacing {
+  position: absolute;
+  right: 150px;
+  top: 70px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: left;
+  width: 100%;
+  max-width: 640px;
+  margin-top: 20px;
+}
+
+.explorer_pic_left {
+  position: absolute;
+  top: 60px;
+  right: 800px;
+}
+
+.line_r {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+
+.firebase_auth_r {
+  position: relative;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+/* Temp Home */
+
+.already_have {
+  height: 43px;
+  width: 480px;
+
+  margin-right: 2px;
+  margin-top: 32px;
+  top: 0;
+  left: 30;
+}
+
+/* forgot email */
+
+.title_text_header {
+  position: relative;
+  margin-top: 32px;
+  /* top: 30px; */
+}
+
+.text_header {
+  position: relative;
+  margin-top: 32px;
+  /* top: 30px; */
+}
+
+.button_header {
+  position: relative;
+  margin-top: 50px;
+  /* top: 30px; */
+}
+
+/* forgot email update */
+
+.explorer_pic_passup {
+  position: absolute;
+  top: 0px;
+  left: 850px;
+}
+
+.text_header {
+  position: relative;
+  margin-top: 32px;
+  /* top: 30px; */
+}
+
+.button_header {
+  position: relative;
+  margin-top: 50px;
+  /* top: 30px; */
+}
+
+/* button */
+
+.btn_primary {
+  background-color: var(--green);
+  border-radius: 4px;
+  box-shadow: 0px 8px 15px #3151df4c;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  min-height: 40px;
+  min-width: 200px;
+  padding: 10px 30px;
+  margin: 10px;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* hotel reg */
+
+.hotel_reg_form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.hotel_reg_label {
+  margin-top: 10px;
+}
+
+.hotel_reg_input_text {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.hotel_reg_button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: var(--green);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hotel_reg_button:hover {
+  background-color: var(--tropical-blue);
+}
+
+/* profile_up */
+
+.profile_up_container {
+  height: "100%";
+  margin-top: "50px";
+  overflow: "auto";
+  margin-bottom: "100px";
+}
+
+.profile_up_form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile_up_label {
+  margin-top: 10px;
+}
+
+.profile_up_input_text {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.profile_up_button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: var(--green);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.profile_up_button:hover {
+  background-color: var(--tropical-blue);
+}
+
+/* success page  */
+
+.confirm_container {
+  position: relative;
+  margin-top: 330px;
+
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+
+.confirm_text {
+  margin-bottom: 20px;
+}
+
+.confirm_pic {
+  display: block;
+  margin: 0 auto;
+}
+
+.button_confirm_home {
+  margin-top: 20px;
+}
+
+/* footer no sub */
+
+.nfooter {
+  display: flex;
+  justify-content: space-evenly;
+  height: 160px;
+  padding-top: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.nfooter-section {
+  flex-direction: column;
+  flex-basis: 20%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.nfooter-logo {
+  height: 30px;
+}
+.nfooter-container {
+  background-color: #8dd3bb !important;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 180px;
+}
+
+.nfooter-text {
+  font-size: 12x;
+  line-height: 30px;
+}
+
+/* End Nithin's Pages */
+
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.App input {
+  border-radius: 5px;
+  width: 100px;
+}
+
+.card-container {
+  border: 2px solid #f3f2f2;
+  padding: 7px;
+  box-shadow: 2em;
+  border-radius: 5px;
+  width: 375px;
+  height: 400px;
+}
+
+.card-image {
+  width: 360px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.card-heading {
+  margin-top: 5px;
+  color: #24ab70;
+  font-family: "poppins";
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+
+.badge-img {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: black !important;
+  background: #f3f2f2;
+  border-radius: 10px;
+}
+
+.price {
+  font-family: "Montserrat";
+  color: #152c5b !important;
+  font-size: 24px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.flexbox {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.icon-text {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.margin-left {
+  margin-left: 15px;
+}
+.btn-width {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.margin-right-5 {
+  margin-right: 3px;
+}
+
+.search-container {
+  border: 2px solid #f3f2f2;
+  border-radius: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.no-border-textbox {
+  border: none;
+  border-color: transparent;
+  outline: none;
+}
+.search-textbox {
+  display: flex;
+  overflow: hidden !important;
+}
+
+.seperator {
+  height: 20px;
+  color: #000000;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.banner-img {
+  border-radius: 30px;
+}
+
+.flexbox > div {
+  margin: 7px;
+}
+
+.img-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sub-nav-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+}
+.nav-item {
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 4px !important;
+  color: white !important;
+  font-size: 12px !important;
+}
+
+.nav-active {
+  background: #0487aa;
+  border-radius: 10px;
+  font-weight: bold !important;
+}
+
+.nav-bar-container {
+  background-color: #24252a !important;
+}
+
+.nav-padding-left {
+  padding-left: 50px;
+}
+
+.nav-logout {
+  cursor: pointer;
+}
+
+.subscribe-container {
+  position: absolute;
+  top: -25%;
+  display: flex;
+  width: 80%;
+  background-color: #cdeae1;
+  height: 300px;
+  border-radius: 25px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 10px;
+  margin: 20px;
+  justify-content: space-between;
+  z-index: 1020;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.subscribe-container-1 {
+  flex-basis: 60%;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400px;
+}
+.sub-header {
+  font-size: 38px;
+  line-height: initial;
+}
+
+.text {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.margin-top-60 {
+  margin-top: 50px;
+}
+
+.margin-right-10 {
+  margin-right: 10px;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  height: 375px;
+  padding-top: 240px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.footer-section {
+  flex-direction: column;
+  flex-basis: 20%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.no-center-vertical {
+  align-items: flex-start !important;
+}
+
+.no-center-horizontal {
+  justify-content: flex-start !important;
+}
+
+.footer-logo {
+  height: 30px;
+}
+.footer-container {
+  background-color: #8dd3bb !important;
+  position: relative;
+  height: 410px;
+}
+.no-wrap {
+  flex-wrap: nowrap !important;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons {
+  width: 100px;
+}
+.footer-text {
+  font-size: 12x;
+  line-height: 30px;
+}
+
+.color-blue {
+  color: #1e3161;
+}
+
+.flex-start {
+  align-items: flex-start !important;
+  justify-content: flex-start;
+}
+
+.justify-content-start {
+  justify-content: space-evenly !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-basis-50 {
+  flex-basis: 50;
+}
+.justify-content-center {
+  justify-content: center;
+}
+
+.flex-direction-col {
+  flex-direction: column;
+}
+
+.flex-basis-25 {
+  flex-basis: 25;
+}
+
+.hotel-page-container {
+  width: 100%;
+  padding: 10px;
+  height: 550px;
+}
+
+.hotel-image {
+  border-radius: 5px;
+}
+
+.mr-5 {
+  margin-right: 10px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.ml-150 {
+  margin-left: 120px;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  width: 200px;
+}
+
+.Poppins {
+  font-family: "Poppins", cursive;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.hotel-name {
+  margin-top: 60px;
+  font-weight: 400;
+  color: #34ab70;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  width: 100%;
+}
+.name {
+  font-size: 20px;
+}
+.addr {
+  font-size: 18px;
+}
+
+.flex-basis-50 {
+  flex-basis: 50%;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.services {
+  display: flex;
+}
+.services div {
+  margin-right: 15px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-100 {
+  margin-bottom: 120px;
+}
+
+.mb-225 {
+  margin-bottom: 225px;
+}
+
+.calculator-container {
+  padding-left: 90px;
+  padding-right: 80px;
+  height: 300px;
+  width: 100px;
+  border-radius: 10px;
+}
+.return-btn {
+  position: absolute;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/*Calculator*/
+
+.calc-container {
+  border: 2px solid #f3f3f2;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.poppins {
+  font-family: "Poppins";
+}
+
+.price {
+  color: #25ab70 !important;
+  font-size: 36px;
+}
+
+.txt {
+  font-size: 36px;
+}
+
+.flex {
+  display: flex;
+}
+
+.margin-right-5 {
+  margin-right: 5px;
+}
+
+.rooms {
+  height: 25px;
+}
+
+.control-icon {
+  background-color: #25ab70;
+  border-radius: 5px;
+  color: white;
+}
+
+.control-number {
+  background-color: #f5f6f8;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.calendar-control {
+  width: 90%;
+  border-radius: 5px;
+}
+
+.price-details {
+  font-size: 14px;
+  text-align: center;
+}
+.book-btn {
+  background-color: #25ab70;
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.hotel-information-container {
+  height: 500px;
+}
+
+/*Dashboard*/
+
+.user-details {
+  border-radius: 10px;
+  background-color: #25ab70 !important;
+  color: white;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.options {
+  width: 200px;
+  height: 80vh;
+  color: white;
+  border-radius: 10px;
+  padding-top: 30px;
+  background-color: #252b42 !important;
+}
+
+.active-opt {
+  background-color: #25ab70;
+  border-top-left-radius: 80px 80px;
+  border-bottom-left-radius: 80px 80px;
+}
+
+.opts {
+  display: flex;
+  height: 35px;
+  margin-bottom: 7px;
+  color: white;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.margin-left-3 {
+  margin-left: 3px;
+}
+
+.float-left {
+  float: left;
+}
+
+.graph {
+  width: 600px;
+  float: right;
+}
+
+.padding-left-10 {
+  padding-left: 10px;
+}
+
+.padding-right-10 {
+  padding-right: 10px;
+}
+
+.dashboard-details {
+  border-radius: 10px;
+  background-color: #0b5e59 !important;
+  font-family: "poppins";
+  font-size: 18px;
+  color: white;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.margin-right-60 {
+  margin-right: 60px;
+}
+
+.margin-right-100 {
+  margin-right: 100px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.margin-top-150 {
+  margin-top: 150px;
+}
+
+.flex-center {
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 10%;
+}
+
+input[type="date"] {
+  margin-left: 7px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid #f3f2f2;
+  width: 100px;
+}
+
+input[type="date"]:focus {
+  outline: none !important;
+}
+
+input[type="date"] {
+  position: relative;
+}
+
+input[type="date"]:hover:after {
+  color: #bf1400;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  color: transparent;
+  background: transparent;
+}
+
+input[type="date"]::-webkit-inner-spin-button {
+  z-index: 1;
+}
+
+input[type="date"]::-webkit-clear-button {
+  z-index: 1;
+}
+
+fieldset {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.payment-input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.border-2 {
+  border: 2px solid #f3f2f2;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.payments-container {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-bottom: 150px;
+  margin-right: 100px;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.billing-hotel-name {
+  color: #34ab70;
+  font-size: 18px;
+}
+
+.hotel-container {
+  display: flex;
+  padding: 10px;
+  background-color: #f3f2f2;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+  border: 2px solid #f3f2f2;
+  border-radius: 5px;
+}
+
+.past-bookings-container {
+  /*margin-left: 30px;*/
+  float: right;
+  width: 81%;
+  padding: 20px;
+  border: 2px solid #f3f2f2;
+  border-radius: 10px;
+}
+
+.margin-bottom-150 {
+  margin-bottom: 150px;
+}
+
+.margin-bottom-100 {
+  margin-bottom: 100px;
+}

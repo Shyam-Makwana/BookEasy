@@ -1,0 +1,42 @@
+{
+  "name": "Bookeasy-Frontend",
+  "version": "1.0.0",
+  "description": "SE Booking Management System Frontend Project",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@cloudinary/react": "^1.11.2",
+    "@cloudinary/url-gen": "^1.10.0",
+    "@fontsource/poppins": "4.5.10",
+    "bootstrap": "5.2.3",
+    "chart.js": "^4.2.1",
+    "csbbust": "1.0.1",
+    "firebase": "9.18.0",
+    "loader-utils": "^3.2.1",
+    "react": "18.0.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.0.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-firebaseui": "^6.0.0",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "4.8.0",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.8"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
